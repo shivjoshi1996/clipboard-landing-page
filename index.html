@@ -19,7 +19,7 @@
 
 <body>
 
-  <header>
+  <header class="mb-5">
     <div class="header__background-image">
       <div class="col-12 text-center">
         <img src="./images/logo.svg" alt="">
@@ -31,9 +31,13 @@
         <p class="text-center">Clipboard allows you to track and organize everything you
           copy. Instantly access your clipboard on all your devices.</p>
       </div>
-      <div class="d-grid gap-2">
-        <button type="button" class="btn btn-primary">Download for iOS</button>
-        <button type="button" class="btn">Download for Mac</button>
+      <div class="d-grid gap-2 px-4">
+        <button type="button"
+          class="btn btn-primary rounded-pill py-3 fw-bold download-button download-button--ios">Download for
+          iOS</button>
+        <button type="button"
+          class="btn btn-primary rounded-pill py-3 fw-bold download-button download-button--mac">Download for
+          Mac</button>
       </div>
     </div>
   </header>
@@ -49,17 +53,20 @@
 
     <img src="./images/image-computer.png" alt="" class="img-fluid w-75 my-5">
 
-    <h3>Quick Search</h3>
-
-    <p>Easily search your snippets by content, category, web address, application, and more.</p>
-
-    <h3>iCloud Sync</h3>
-
-    <p>Instantly saves and syncs snippets across all your devices.</p>
-
-    <h3>Complete History</h3>
-
-    <p>Retrieve any snippets from the first moment you started using the app.</p>
+    <ul class="list-unstyled">
+      <li>
+        <h3>Quick Search</h3>
+        <p>Easily search your snippets by content, category, web address, application, and more.</p>
+      </li>
+      <li>
+        <h3>iCloud Sync</h3>
+        <p>Instantly saves and syncs snippets across all your devices.</p>
+      </li>
+      <li>
+        <h3>Complete History</h3>
+        <p>Retrieve any snippets from the first moment you started using the app.</p>
+      </li>
+    </ul>
   </section>
 
   <section class="container text-center">
@@ -71,26 +78,33 @@
 
     <img src="./images/image-devices.png" alt="" class="img-fluid w-75 my-5">
 
+  </section>
+
+  <section class="container text-center">
+
     <h2>Supercharge your workflow</h2>
 
     <p>We’ve got the tools to boost your productivity.</p>
 
-    <h3>Create blacklists</h3>
-
-    <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-
-    <h3>Plain text snippets</h3>
-
-    <p>Remove unwanted formatting from copied text for a consistent look.</p>
-
-    <h3>Sneak preview</h3>
-
-    <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+    <ul class="list-unstyled">
+      <li>
+        <h3>Create blacklists</h3>
+        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      </li>
+      <li>
+        <h3>Plain text snippets</h3>
+        <p>Remove unwanted formatting from copied text for a consistent look.</p>
+      </li>
+      <li>
+        <h3>Sneak preview</h3>
+        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      </li>
+    </ul>
 
   </section>
 
   <section class="container text-center py-5">
-    <ul class="list-group d-flex gap-5">
+    <ul class="list-group d-flex gap-5 list-unstyled">
       <li>
         <img src="./images/logo-google.png" alt="">
       </li>
